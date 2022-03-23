@@ -37,7 +37,13 @@
 
 ---
 
-### Коммуникация
+#### Записи лекций
+
+* [Лекция 1](https://www.youtube.com/watch?v=1QX_BFJBgTQ)
+
+---
+
+#### Коммуникация
 * [Telegram](https://t.me/+xuOPZTZ2z9VkZDQ0)
 
 ---
