@@ -16,7 +16,7 @@ public class Task1 {
         int secondNumber = scanner.nextInt();
         int sumOfNumbers = firstNumber + secondNumber;
         int multipleOfNumbers = firstNumber * secondNumber;
-        int divideOfNumbers = firstNumber / secondNumber;
+        double divideOfNumbers = firstNumber / (double)secondNumber;
         int subtractionOfNumbers = firstNumber - secondNumber;
 
         System.out.println(firstNumber + " + " + secondNumber + " = " + sumOfNumbers);
