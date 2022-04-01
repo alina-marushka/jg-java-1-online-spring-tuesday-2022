@@ -1,4 +1,4 @@
-package students.jelena_albova.lesson_2.level_1.task_2;
+package students.jelena_albova.lesson_2.level_1.task_1.level_1.task_1.task_2;
 
 public class Task2 {
     public static void main(String[] args) {
