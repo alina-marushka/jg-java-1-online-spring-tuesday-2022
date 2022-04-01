@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_2.level_2.task_7;
+package students.dmitry_makarov.lesson_2.level_2.task_7;
 
 /*
 Дан код, нужно сделать этот код запускаемым.

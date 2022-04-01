@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_2.level_2.task_6;
+package students.dmitry_makarov.lesson_2.level_2.task_6;
 
 /*
 Дан код, нужно исправить ошибку компиляции.

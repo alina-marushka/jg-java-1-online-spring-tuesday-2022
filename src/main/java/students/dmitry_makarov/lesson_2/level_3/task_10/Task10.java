@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_2.level_3.task_10;
+package students.dmitry_makarov.lesson_2.level_3.task_10;
 
 public class Task10 {
     public static void main(String[] args) {
