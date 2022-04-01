@@ -25,8 +25,8 @@ public class Task11 {
         int thirdNum = scanner.nextInt();
         counter++;
 
-        int sum = firstNumber + secondNum + thirdNum;
-        int arithmeticMean = sum / counter;
+        double sum = firstNumber + secondNum + thirdNum;
+        double arithmeticMean = sum / counter;
 
         System.out.println("Output: ");
         System.out.println("Arithmetic Mean = " + sum + " / " + counter + " = " + arithmeticMean);
