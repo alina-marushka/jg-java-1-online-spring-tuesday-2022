@@ -1,5 +1,6 @@
 package student.vlad_stus.lesson_2.level_3;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Task_10 {
@@ -7,13 +8,21 @@ public class Task_10 {
 
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println("Напишите Радиус Круга");
-        int numberRadius = scanner.nextInt();
+        System.out.println("Задайте Радиус Круга");
+        double  numberRadius = scanner.nextDouble();
+        double b1 = 2;
         double numberOfP = 3.14d;
 
-        double areaIs = numberOfP * ((double)numberRadius*2);
+        /*  Формула Периметра круга: P = 2πr*/
+        double perimetrIs = b1  * numberOfP * numberRadius;
 
+/*        Формула Площади круга  S = π × r2,*/
+        double areaIs = numberOfP * Math.pow( numberRadius, b1);
+
+        System.out.println("Perimeter is= " +  perimetrIs);
         System.out.println("Area is=  " + areaIs);
+
+
 
 
     }
