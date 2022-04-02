@@ -1,6 +1,6 @@
 package student.vlad_stus.lesson_2.level_3;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Task_10 {
