@@ -8,28 +8,18 @@ public class Task_9 {
         System.out.println("Please enter your value");
         int value = scanner.nextInt();
 
-        int valueXTwo = value * 2;
-        int valueXThree = value * 3;
-        int valueXFour = value * 4;
-        int valueXFive = value * 5;
-        int valueXSix = value * 6;
-        int valueXSeven = value * 7;
-        int valueXeight = value * 8;
-        int valueXNine = value * 9;
-        int valueXTen = value * 10;
-
         System.out.println("Test data: ");
         System.out.println("Input a number: " + value);
-        System.out.println(value + " * " + 1 + " = " + value);
-        System.out.println(value + " * " + 2 + " = " + valueXTwo);
-        System.out.println(value + " * " + 3 + " = " + valueXThree);
-        System.out.println(value + " * " + 4 + " = " + valueXFour);
-        System.out.println(value + " * " + 5 + " = " + valueXFive);
-        System.out.println(value + " * " + 6 + " = " + valueXSix);
-        System.out.println(value + " * " + 7 + " = " + valueXSeven);
-        System.out.println(value + " * " + 8 + " = " + valueXeight);
-        System.out.println(value + " * " + 9 + " = " + valueXNine);
-        System.out.println(value + " * " + 10 + " = " + valueXTen);
+        System.out.println(value + " * " + 1 + " = " + (value * 1));
+        System.out.println(value + " * " + 2 + " = " + (value * 2));
+        System.out.println(value + " * " + 3 + " = " + (value * 3));
+        System.out.println(value + " * " + 4 + " = " + (value * 4));
+        System.out.println(value + " * " + 5 + " = " + (value * 5));
+        System.out.println(value + " * " + 6 + " = " + (value * 6));
+        System.out.println(value + " * " + 7 + " = " + (value * 7));
+        System.out.println(value + " * " + 8 + " = " + (value * 8));
+        System.out.println(value + " * " + 9 + " = " + (value * 9));
+        System.out.println(value + " * " + 10 + " = " + (value * 10));
 
 
     }
