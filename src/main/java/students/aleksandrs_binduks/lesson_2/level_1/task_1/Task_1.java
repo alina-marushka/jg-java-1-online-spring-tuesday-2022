@@ -22,6 +22,10 @@ public class Task_1 {
         System.out.println(firstNumber + " / " + secondNumber + " = " + divideOfNumbers);
         System.out.println(firstNumber + " - " + secondNumber + " = " + subtractionOfNumbers);
 
+        // aboba //
+
+
+
 
 
 
