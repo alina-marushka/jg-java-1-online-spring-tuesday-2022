@@ -1,6 +1,6 @@
 package students.romans_bogomols.lesson_3.level_4.Task_16;
 
-public class BankAccount {
+class BankAccount {
 
     String ownerFirstName;
     String ownerLastName;

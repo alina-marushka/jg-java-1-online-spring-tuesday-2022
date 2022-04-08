@@ -1,6 +1,6 @@
 package students.romans_bogomols.lesson_3.level_4.task_15;
 
-public class Car {
+class Car {
 
     String model;
 
