@@ -19,7 +19,7 @@
 
 package students.deniss_mirosnikovs.lesson_3.level_7.task_28;
 
-public class Product {
+class Product {
 
     String name;
     double regularPrice;
