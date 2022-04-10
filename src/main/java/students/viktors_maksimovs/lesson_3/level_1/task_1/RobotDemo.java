@@ -1,6 +1,6 @@
-package students.viktors_maksimovs.lesson3.level_1.task_1;
+package students.viktors_maksimovs.lesson_3.level_1.task_1;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         Robot bot1 = new Robot();
         Robot bot2 = new Robot();
