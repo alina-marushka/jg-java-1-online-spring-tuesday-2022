@@ -2,7 +2,7 @@ package students.georgy_bakulin.lesson_3.level_5.task_20;
 
 import java.awt.*;
 
-public class Dog {
+ class Dog {
 
     String name;
     int age;
