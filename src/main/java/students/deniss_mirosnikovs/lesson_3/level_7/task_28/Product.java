@@ -32,15 +32,14 @@ class Product {
     void printInformation() {
         System.out.println("Product name: " + name);
         System.out.println("Product regular price: " + regularPrice + "$");
-        System.out.println("Discount on product: " + discount + "%\n");
+        System.out.println("Discount on product: " + discount + "%");
+        System.out.println("Actual price with discount " + discount +
+                            "% is " + actualPrice() + "$\n");
     }
 
-    void actualPrice() {
+    double actualPrice() {
 
         double percentage = 100 - discount;
-        double actualPrice = (percentage * regularPrice) / 100;
-
-        System.out.println("Actual " + name + " price with discount " +
-                            discount + "% is " + actualPrice + "$");
+        return percentage * regularPrice / 100;
     }
 }

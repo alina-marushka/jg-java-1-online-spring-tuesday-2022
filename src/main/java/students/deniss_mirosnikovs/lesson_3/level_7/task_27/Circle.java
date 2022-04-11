@@ -17,9 +17,7 @@ class Circle {
         this.radius = radius;
     }
 
-    void getArea() {
-
-        double area = Math.PI * (radius * radius);
-        System.out.println("Circle area = " + area);
+    double getArea() {
+        return Math.PI * (radius * radius);
     }
 }

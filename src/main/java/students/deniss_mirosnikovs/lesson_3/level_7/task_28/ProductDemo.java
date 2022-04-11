@@ -9,7 +9,5 @@ class ProductDemo {
         product.regularPrice = 100;
         product.discount = 25;
         product.printInformation();
-
-        product.actualPrice();
     }
 }
