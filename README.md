@@ -68,11 +68,6 @@
 
 ---
 
-#### Коммуникация
-* [Telegram](https://t.me/+xuOPZTZ2z9VkZDQ0)
-
----
-
 #### Книги
 
 * [Head First Java, 2nd Edition](https://isbnsearch.org/isbn/9780596009205)
