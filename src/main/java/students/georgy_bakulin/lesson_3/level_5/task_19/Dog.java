@@ -1,6 +1,6 @@
 package students.georgy_bakulin.lesson_3.level_5.task_19;
 
-public class Dog {
+ class Dog {
 
     int age;
 
