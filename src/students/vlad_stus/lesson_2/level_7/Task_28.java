@@ -1,4 +1,4 @@
-package student.vlad_stus.lesson_2.level_7;
+package students.vlad_stus.lesson_2.level_7;
 
 public class Task_28 {
 
