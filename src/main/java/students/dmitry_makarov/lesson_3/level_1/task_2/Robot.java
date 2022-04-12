@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_1.task_2;
+package students.dmitry_makarov.lesson_3.level_1.task_2;
 
  class Robot {
 

@@ -1,6 +1,6 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_1;
+package students.dmitry_makarov.lesson_3.level_1;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
 
     Robot robot1 = new Robot( );

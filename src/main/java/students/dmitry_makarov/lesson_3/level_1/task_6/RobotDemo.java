@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_1.task_6;
+package students.dmitry_makarov.lesson_3.level_1.task_6;
 
 class RobotDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_2.task_9;
+package students.dmitry_makarov.lesson_3.level_2.task_9;
 
 import java.util.Scanner;
 

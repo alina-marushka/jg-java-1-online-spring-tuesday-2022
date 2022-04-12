@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_5.task_18;
+package students.dmitry_makarov.lesson_3.level_5.task_18;
 
  class Dog {
 

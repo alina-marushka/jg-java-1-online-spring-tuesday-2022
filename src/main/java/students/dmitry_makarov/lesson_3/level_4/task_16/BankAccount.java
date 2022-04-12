@@ -1,4 +1,4 @@
-package src.main.java.students.dmitry_makarov.lesson_3.level_4.task_16;
+package students.dmitry_makarov.lesson_3.level_4.task_16;
 
 class BankAccount {
     String ownerFirstName;
