@@ -15,9 +15,9 @@ class OddOrEven {
 
     void checkIfOddOrEven (int value) {
         if (value % 2 == 0) {
-            System.out.printf("Your value is even value");
+            System.out.println("Your value is even value");
         } else {
-            System.out.printf("Your value is odd value");
+            System.out.println("Your value is odd value");
         }
     }
 
