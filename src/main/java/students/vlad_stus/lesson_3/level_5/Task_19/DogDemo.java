@@ -10,6 +10,7 @@ package students.vlad_stus.lesson_3.level_5.Task_19;
    dogOne.happyBirthday();
 
 
+
    System.out.println();
 
    dogOne.getVoice();
