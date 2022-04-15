@@ -1,9 +1,17 @@
 package students.vlad_stus.lesson_3.Task_1;
 
-public class Robot {
+ class Robot {
 
+
+   /*  Robot(){
+     }*/
 
     void sayHello(){
         System.out.println("Hello my Master");
     }
+
+    void sayYourName() {
+        System.out.println("My name is ROBO");
+    }
+
 }
