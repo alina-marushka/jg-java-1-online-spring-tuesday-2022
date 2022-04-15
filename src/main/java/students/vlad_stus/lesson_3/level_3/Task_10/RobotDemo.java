@@ -1,6 +1,6 @@
 package students.vlad_stus.lesson_3.level_3.Task_10;
 
-public class RobotDemo {
+class RobotDemo {
 
     public static void main(String[] args) {
 
