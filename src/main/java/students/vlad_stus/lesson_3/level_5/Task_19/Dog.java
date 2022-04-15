@@ -4,20 +4,23 @@ class Dog {
 
     String name;
     int age;
+    String color;
 
 
-    Dog(String name,  int age){
+    Dog(String name,  int age, String color){
         this.name = name;
         this.age=age;
+        this.color = color;
     }
 
     void getVoice(){
         System.out.println("My name is: " + name);
+        System.out.println("My color is: " + color );
         System.out.println("ГАВ-ГВ-ГАВ");
     }
 
     void happyBirthday() {
-        System.out.println(age++);
+        System.out.println("I am "+ age++ +" years old! ");
 
     }
 }
