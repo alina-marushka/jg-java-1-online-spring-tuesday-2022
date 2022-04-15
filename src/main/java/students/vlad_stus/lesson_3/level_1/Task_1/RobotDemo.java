@@ -1,4 +1,4 @@
-package students.vlad_stus.lesson_3.Task_1;
+package students.vlad_stus.lesson_3.level_1.Task_1;
 
  class RobotDemo {
 
