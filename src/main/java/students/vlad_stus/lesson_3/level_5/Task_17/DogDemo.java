@@ -1,4 +1,4 @@
-package students.vlad_stus.lesson_3.level_5;
+package students.vlad_stus.lesson_3.level_5.Task_17;
 
  class DogDemo {
 
