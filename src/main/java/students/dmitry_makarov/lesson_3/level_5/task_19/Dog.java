@@ -22,7 +22,6 @@ package students.dmitry_makarov.lesson_3.level_5.task_19;
   }
 
   void voice () {
-
    System.out.println(dogName + " " + dogAge + " " + dogColor);
   }
  }
