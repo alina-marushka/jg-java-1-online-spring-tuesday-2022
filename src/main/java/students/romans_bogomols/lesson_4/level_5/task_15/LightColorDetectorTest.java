@@ -91,7 +91,7 @@ class LightColorDetectorTest {
         assertThatEqual("Invisible Light", realResult,"Invisible max");
     }
     void assertThatEqual(String expected, String actual, String scenario) {
-        if (expected == actual) {
+        if (expected.equals(actual)) {
             System.out.println("[ OK ]: " + scenario + " passed!");
         } else {
             System.out.println("[FAIL]: " + scenario + " failed!");
