@@ -1,4 +1,4 @@
-package students.vlad_stus.lesson_4;
+package students.vlad_stus.level_1;
 
 import java.util.Scanner;
  class Task_1 {
