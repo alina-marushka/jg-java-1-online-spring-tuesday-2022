@@ -9,6 +9,12 @@ package students.vlad_stus.level_4.Task_10;
    calculatorTest.subtractionTest();
    calculatorTest.divisionTest();
    calculatorTest.multiplicationTest();
+
+   //Task12
+   calculatorTest.isEvenTest();
+
+   //Task13
+   calculatorTest.maxOfTwoNumbers();
 }
 
 
@@ -62,8 +68,33 @@ void sumTest() {
    } else {
     System.out.println("Sub test = FAIL");
    }
-
-
   }
 
+  //Task12
+
+  void isEvenTest(){
+   Calculator calculator = new Calculator(); // вызываем продакшен код, который хотим протестировать
+   boolean realResult = calculator.isEven(10);
+   boolean expectedResult = true;
+   if (realResult == expectedResult){
+    System.out.println("Even test = OK");
+   }else{
+    System.out.println("Even test = FAIL");
+   }
+  }
+
+  //Task13
+
+  void maxOfTwoNumbers(){
+   int firstNumber = 10; // подготавливаем тестовые данные
+   int secondNumber = 5; // подготавливаем тестовые данные
+   int expectedResult = 10; // подготавливаем тестовые данные
+   Calculator calculator = new Calculator(); // вызываем продакшен код, который хотим протестировать
+  int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+   if (realResult == expectedResult){
+    System.out.println("Even test = OK");
+   }else{
+    System.out.println("Even test = FAIL");
+   }
+  }
  }
