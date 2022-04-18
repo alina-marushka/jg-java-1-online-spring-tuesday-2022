@@ -1,6 +1,6 @@
 package students.deniss_mirosnikovs.lesson_4.level_6;
 
-public class StockTest {
+class StockTest {
 
     public static void main(String[] args) {
 
