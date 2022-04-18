@@ -15,14 +15,14 @@ class CalculatorDemo {
         int secondNumber = scanner.nextInt();
 
         Calculator calculator = new Calculator();
-            int summary = calculator.sum(firstNumber, secondNumber);
-        System.out.println("Сложение двух чисел =  "+summary );
-            int subtraction = calculator.subtraction(firstNumber, secondNumber);
-        System.out.println("Вычитание двух чисел =  "+subtraction );
-            int division = calculator.division(firstNumber, secondNumber);
-        System.out.println("Деление двух чисе =  "+division );
-            int multiplication = calculator.multiplication(firstNumber, secondNumber);
-        System.out.println("Умножение двух числел =  "+multiplication );
+            int sumResult = calculator.sum(firstNumber, secondNumber);
+        System.out.println("Сложение двух чисел =  "+sumResult );
+            int subResult = calculator.subtraction(firstNumber, secondNumber);
+        System.out.println("Вычитание двух чисел =  "+subResult );
+            int divResult = calculator.division(firstNumber, secondNumber);
+        System.out.println("Деление двух чисе =  "+divResult );
+            int multResult = calculator.multiplication(firstNumber, secondNumber);
+        System.out.println("Умножение двух числел =  "+multResult );
 
 
 
