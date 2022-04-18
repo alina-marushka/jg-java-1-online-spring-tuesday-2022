@@ -3,7 +3,6 @@ package students.vlad_stus.level_4.Task_10;
 class Calculator {
 
 
-
     int sum ( int firstNumber, int secondNumber){
         return firstNumber + secondNumber;
     }
@@ -19,6 +18,8 @@ class Calculator {
     int multiplication ( int firstNumber, int secondNumber){
         return firstNumber * secondNumber;
     }
+
+
 
 
 }
