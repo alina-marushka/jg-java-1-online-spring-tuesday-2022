@@ -1,6 +1,6 @@
 package students.romans_bogomols.lesson_4.level_7.task_18;
 
-public class LeapYear {
+class LeapYear {
 
     boolean isLeapYear(int year) {
         if (year % 4 != 0) {
