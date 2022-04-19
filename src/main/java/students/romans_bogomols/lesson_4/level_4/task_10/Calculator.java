@@ -15,12 +15,10 @@ package students.romans_bogomols.lesson_4.level_4.task_10;
      }
 
      double division(int firstNumber, int secondNumber) {
-
          return firstNumber / (double) secondNumber;
      }
 
      boolean isEven(int number) {
-
          return number % 2 == 0;
      }
 
