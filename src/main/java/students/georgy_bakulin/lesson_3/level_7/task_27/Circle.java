@@ -8,7 +8,7 @@ double radius;
         this.radius = radius;
     }
     double calculateArea(){
-      return   Math.pow(radius,radius) * Math.PI;
+      return   Math.pow(radius,2.0) * Math.PI;
 
     }
 }
