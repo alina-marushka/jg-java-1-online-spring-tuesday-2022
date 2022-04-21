@@ -20,11 +20,28 @@ class StockTest {
         priceInformation = tesla.getPriceInformation();
         System.out.println(priceInformation);
 
+        stockTest.stockTest();
         stockTest.maximumTest();
         stockTest.maximumForTwoPeriodsTest();
         stockTest.maximumForThreePeriodsTest();
         stockTest.maximumForFourPeriodsTest();
         stockTest.maximumForTwoPeriodsTest1();
+    }
+
+    public void stockTest() {
+        Stock stock = new Stock("Test stock", 10);
+        stock.updatePrice(30);
+        stock.updatePrice(6);
+        stock.updatePrice(23);
+
+        String expected = "Company = \"Test stock\", Current Price = 23.0, Min Price = 6.0, Max Price = 30.0";
+        String actual = stock.getPriceInformation();
+
+        if (expected.equals(actual)) {
+            System.out.println("stockTest test = OK");
+        } else {
+            System.out.println("stockTest test = FAIL");
+        }
     }
 
     public void maximumTest() {

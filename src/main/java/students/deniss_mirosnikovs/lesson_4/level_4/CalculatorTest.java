@@ -12,6 +12,7 @@ class CalculatorTest {
         calculatorTest.divTest();
 
         calculatorTest.isEvanTest();
+        calculatorTest.isNotEvanTest();
 
         calculatorTest.firstOfTwoNumberMaxTest();
         calculatorTest.secondOfTwoNumberMaxTest();
@@ -97,6 +98,20 @@ class CalculatorTest {
             System.out.println("isEven test = OK");
         } else {
             System.out.println("isEven test = FAIL");
+        }
+    }
+
+    public void isNotEvanTest() {
+        int number = 9;
+        boolean expectedResult = false;
+
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.isEven(number);
+
+        if (realResult == expectedResult) {
+            System.out.println("isNotEven test = OK");
+        } else {
+            System.out.println("isNotEven test = FAIL");
         }
     }
 

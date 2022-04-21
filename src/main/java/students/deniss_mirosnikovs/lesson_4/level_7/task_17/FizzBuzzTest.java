@@ -24,7 +24,7 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         String realResult = fizzBuzz.detect(6);
 
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("Division on three test = OK");
         } else {
             System.out.println("Division on three test = FAIL");
@@ -37,7 +37,7 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         String realResult = fizzBuzz.detect(10);
 
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("Division on five test = OK");
         } else {
             System.out.println("Division on five test = FAIL");
@@ -50,7 +50,7 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         String realResult = fizzBuzz.detect(15);
 
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("Division on three and five test = OK");
         } else {
             System.out.println("Division on three and five test = FAIL");
@@ -63,7 +63,7 @@ class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         String realResult = fizzBuzz.detect(4);
 
-        if (realResult == expectedResult) {
+        if (realResult.equals(expectedResult)) {
             System.out.println("Undivided on three and five test = OK");
         } else {
             System.out.println("Undivided on three and five test = FAIL");
