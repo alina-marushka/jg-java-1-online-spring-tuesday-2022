@@ -9,6 +9,7 @@ class CalculatorTest {
         calculatorTest.multTest();
         calculatorTest.divTest();
         calculatorTest.isEven();
+        calculatorTest.isEvenTrue();
         calculatorTest.maxOfTwoNumbersTest();
         calculatorTest.maxOfThreeNumbersOne();
         calculatorTest.maxOfThreeNumbersTwo();
@@ -79,11 +80,23 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(firstNumber);
         if (realResult == expectedResult) {
-            System.out.println("Odd/Even test = PASS");
+            System.out.println("Odd/Even False test = PASS");
         } else {
-            System.out.println("Odd/Even test = FAIL");
+            System.out.println("Odd/Even False test = FAIL");
         }
 
+    }
+
+    void isEvenTrue() {
+        int firstNumber = 4;
+        boolean expectedResult = true;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.isEven(firstNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Odd/Even True test = PASS");
+        } else {
+            System.out.println("Odd/Even True test = FAIL");
+        }
     }
 
     void maxOfTwoNumbersTest() {
