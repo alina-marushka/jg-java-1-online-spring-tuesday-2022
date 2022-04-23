@@ -7,16 +7,18 @@ import java.util.Scanner;
 
   public static void main(String[] args) {
 
-   System.out.println("Введите длинну массива: ");
+
 
    Scanner scanner = new Scanner(System.in);
-   int userOne =scanner.nextInt();
+   System.out.println("Введите длинну массива: ");
+   int arrayLength  =scanner.nextInt();
 
 
-   int[] numbers = new int[userOne];
+   int[] numbers = new int[arrayLength];
    for (int i = 0; i < numbers.length; i++) {
+    System.out.println("Заполнить массив случайными числами[" + i + "]");
     numbers[i] =scanner.nextInt(10);
-    System.out.println(numbers);
+
 
    }
    System.out.println(Arrays.toString(numbers));
