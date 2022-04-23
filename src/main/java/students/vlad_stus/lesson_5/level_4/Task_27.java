@@ -8,20 +8,19 @@ import java.util.Random;
      public static void main(String[] args) {
 
          Random random = new Random();
-         int[] numbers = new int[10];
-         int max = numbers[0];
+         int[] numbers = new int[5];
+
          for (int i = 0; i <numbers.length ; i++) {
              numbers[i] =random.nextInt(10);
-             System.out.println("Числo: = " + i);
-
-             if(max>numbers[i]){
-                 System.out.println(max);
-
+             System.out.println("[" + i + "] = " +  numbers[i]);
              }
 
-         }
 
+             Arrays.sort(numbers);//метод сортировки, который
+         // организует массив в порядке возрастания
+             int maxNum = numbers[numbers.length - 1];
 
          System.out.println(Arrays.toString(numbers));
+         System.out.println("Max number from massive: = " +maxNum);
+         }
      }
-}
