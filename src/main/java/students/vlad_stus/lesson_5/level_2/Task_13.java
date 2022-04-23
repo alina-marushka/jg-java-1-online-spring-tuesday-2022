@@ -11,18 +11,16 @@ class Task_13 {
 
          int[] numbers =new int[3];
 
+         System.out.println(Arrays.toString(numbers));
+
+         int sum = 0;
          for (int i = 0; i <numbers.length ; i++) {
              numbers[i] = random.nextInt(10);
-             System.out.println(numbers[i]);
+             sum += numbers[i];
          }
-       /*  //заполнение массива случайными числами
-         numbers[0] = random.nextInt(10);
-         numbers[1] = random.nextInt(10);
-         numbers[2] = random.nextInt(10);*/
 
-     /*    System.out.println(Arrays.toString(numbers));*/
-
-
+         System.out.println(Arrays.toString(numbers));
+         System.out.println(sum);
 
 
 /*       ПРОБОВАЛ ПО ЭТОМУ ВАРИАНТУ- НЕ ПОЛУЧИЛОСЬ!
