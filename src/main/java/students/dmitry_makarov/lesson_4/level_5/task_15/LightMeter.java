@@ -5,15 +5,17 @@ import java.util.Scanner;
 class LightMeter {
     public static void main(String[] args) {
 
- Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Input light wave length: ");
 
-        int waveLenght = scanner.nextInt();
+        int waveLength = scanner.nextInt();
 
-        LightColorDetector lightColorDetector = new LightColorDetector (waveLenght);
-        lightColorDetector.detect();
-        lightColorDetector.print();
+        LightColorDetector lightColorDetectorNew = new LightColorDetector ();
+        lightColorDetectorNew.detect(waveLength);
+        String lightMeterPrint = lightColorDetectorNew.detect(waveLength);
+        System.out.println(lightMeterPrint);
+
     }
 
 }

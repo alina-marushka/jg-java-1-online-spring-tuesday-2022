@@ -26,16 +26,16 @@ package students.dmitry_makarov.lesson_4.level_4.task_13;
          }
      }
 
-    public int maxNumber(int firstNumber, int secondNumber ){
-        if (firstNumber > secondNumber){
-            return firstNumber;
-        }
-        else if (firstNumber < secondNumber){
-            return secondNumber;
-        }
-        else {
-           return firstNumber + secondNumber;
-        }
-    }
+     public int maxNumber(int firstNumber, int secondNumber ){
+         if (firstNumber > secondNumber){
+             return firstNumber;
+         }
+         else if (firstNumber < secondNumber){
+             return secondNumber;
+         }
+         else {
+             return firstNumber;
+         }
+     }
  }
 

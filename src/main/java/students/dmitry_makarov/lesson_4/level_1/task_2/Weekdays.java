@@ -2,7 +2,7 @@ package students.dmitry_makarov.lesson_4.level_1.task_2;
 
 import java.util.Scanner;
 
- class Weekdays {
+class Weekdays {
     public static void main(String[] args) {
 
         Scanner dayInput = new Scanner(System.in);
@@ -10,11 +10,6 @@ import java.util.Scanner;
         System.out.print("Please input a number (1-7): ");
         int day= dayInput.nextInt();
 
-        if (day >= 8) {
-            System.out.println("number is too big");
-        }
-
-        else {
             switch (day) {
                 case 1:
                     System.out.println("Monday");
@@ -37,7 +32,8 @@ import java.util.Scanner;
                 case 7:
                     System.out.println("Sunday");
                     break;
+                default:
+                    System.out.println("Invalid weekday format");
             }
-        }
     }
 }

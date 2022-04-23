@@ -5,7 +5,6 @@ package students.dmitry_makarov.lesson_4.level_7.task_17;
     String buzz;
     String fizzBuzz;
     int number;
-    String print;
 
     FizzBuzz (int number){
         this.number= number;
@@ -26,14 +25,9 @@ package students.dmitry_makarov.lesson_4.level_7.task_17;
              return fizz;
          }
           else  {
-  //           return " " + number ;
              return String.valueOf(number);
          }
 
      }
 
-      void print () {
-         this.print = detect ();
-         System.out.println(print);
-     }
 }

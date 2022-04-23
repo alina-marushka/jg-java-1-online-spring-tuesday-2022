@@ -16,11 +16,11 @@ class LightColorDetectorTest {
 
 
     public void colViolet (){
-        int waveLenght = 420;
+        int waveLength = 420;
         String colExpected = "Violet";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Violet test OK");
         }
@@ -30,11 +30,11 @@ class LightColorDetectorTest {
     }
 
     public void colBlue (){
-        int waveLenght = 493;
+        int waveLength = 493;
         String colExpected = "Blue";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Blue test OK");
         }
@@ -45,11 +45,11 @@ class LightColorDetectorTest {
 
 
     public void colGreen (){
-        int waveLenght = 500;
+        int waveLength = 500;
         String colExpected = "Green";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Green test OK");
         }
@@ -59,11 +59,11 @@ class LightColorDetectorTest {
     }
 
     public void colYellow (){
-        int waveLenght = 580;
+        int waveLength = 580;
         String colExpected = "Yellow";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Yellow test OK");
         }
@@ -73,11 +73,11 @@ class LightColorDetectorTest {
     }
 
     public void colOrange (){
-        int waveLenght = 600;
+        int waveLength = 600;
         String colExpected = "Orange";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Orange test OK");
         }
@@ -87,11 +87,11 @@ class LightColorDetectorTest {
     }
 
     public void colRed (){
-        int waveLenght = 650;
+        int waveLength = 650;
         String colExpected = "Red";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Red test OK");
         }
@@ -101,13 +101,13 @@ class LightColorDetectorTest {
     }
 
     public void colInvisMax (){
-        int waveLenght = 752;
+        int waveLength = 752;
         String colExpected = "Invisible light";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
-            System.out.println("Ibvisible max test OK");
+            System.out.println("Invisible max test OK");
         }
         else {
             System.out.println("Invisible max test FAIL");
@@ -115,11 +115,11 @@ class LightColorDetectorTest {
     }
 
     public void colInvisMin (){
-        int waveLenght = 350;
+        int waveLength = 350;
         String colExpected = "Invisible light";
 
-        LightColorDetector lightColorDetector = new LightColorDetector(waveLenght);
-        String realResult = lightColorDetector.detect();
+        LightColorDetector lightColorDetector = new LightColorDetector();
+        String realResult = lightColorDetector.detect(waveLength);
         if (realResult == colExpected){
             System.out.println("Invisible min test OK");
         }

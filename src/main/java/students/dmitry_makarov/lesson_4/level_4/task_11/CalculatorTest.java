@@ -3,27 +3,28 @@ package students.dmitry_makarov.lesson_4.level_4.task_11;
  class CalculatorTest {
   public static void main(String[] args) {
 
-  CalculatorTest calculatorTest = new CalculatorTest();
-  calculatorTest.sumTest ();
-  calculatorTest.subTest ();
-  calculatorTest.divTest ();
-  calculatorTest.multTest ();
-  calculatorTest.isEvenTest();
+   CalculatorTest calculatorTest = new CalculatorTest();
+   calculatorTest.sumTest ();
+   calculatorTest.subTest ();
+   calculatorTest.divTest ();
+   calculatorTest.multTest ();
+   calculatorTest.isOddTest();
+   calculatorTest.isEvenTest();
   }
 
   public void sumTest(){
-       int firstNumber = 10;
-       int secondNumber = 5;
-       int expectedSum = 15;
+   int firstNumber = 10;
+   int secondNumber = 5;
+   int expectedSum = 15;
 
-  Calculator calculator = new Calculator();
-  int realResult =calculator.sum (firstNumber, secondNumber);
-  if (realResult == expectedSum){
-   System.out.println("Sum test is OK");
-  }
-  else {
-   System.out.println("Sum test FAIL");
-  }
+   Calculator calculator = new Calculator();
+   int realResult =calculator.sum (firstNumber, secondNumber);
+   if (realResult == expectedSum){
+    System.out.println("Sum test is OK");
+   }
+   else {
+    System.out.println("Sum test FAIL");
+   }
   }
 
 
@@ -72,19 +73,33 @@ package students.dmitry_makarov.lesson_4.level_4.task_11;
    }
   }
 
-  public void isEvenTest () {
+  public void isOddTest () {
    int number = 5;
    boolean expectedIsEven = false;
 
    Calculator calculator = new Calculator();
    boolean realResult = calculator.isEven(number);
    if (realResult == expectedIsEven){
-    System.out.println(" Odd-Even test is OK");
+    System.out.println("Odd test is OK");
    }
    else {
-    System.out.println("Odd-Even test FAIL");
+    System.out.println("Odd test FAIL");
    }
-
-
   }
+
+
+  public void isEvenTest () {
+   int number = 4;
+   boolean expectedIsEven = true;
+
+   Calculator calculator = new Calculator();
+   boolean realResult = calculator.isEven(number);
+   if (realResult == expectedIsEven){
+    System.out.println("Even test is OK");
+   }
+   else {
+    System.out.println("Even test FAIL");
+   }
+  }
+
  }

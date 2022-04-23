@@ -2,17 +2,21 @@ package students.dmitry_makarov.lesson_4.level_6.task_16;
 
  class StockDemo {
      public static void main(String[] args) {
-         Stock google = new Stock("GOOG", 10);
-         google.getPriceInformation();
+
+         Stock stock = new Stock("GOOG", 50);
+         String priceInformation = stock.getPriceInformation();
+         System.out.println(priceInformation);
 
 
-        google.updatePrice(20,12,15);
-        google.getPriceInformation();
-
-         google.updatePrice(8,16,19);
-         google.getPriceInformation();
-
-         google.updatePrice(13,21,17);
-         google.getPriceInformation();
+         stock.updatePrice(60);
+         stock.getPriceInformation();
+         stock.updatePrice(20);
+         stock.updatePrice(80);
+         stock.getPriceInformation();
+         stock.updatePrice(15);
+         stock.updatePrice(7);
+         stock.updatePrice(14);
+         priceInformation = stock.getPriceInformation();
+         System.out.println(priceInformation);;
      }
-}
+ }
