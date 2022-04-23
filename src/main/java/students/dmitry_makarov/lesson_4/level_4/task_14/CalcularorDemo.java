@@ -1,6 +1,6 @@
 package students.dmitry_makarov.lesson_4.level_4.task_14;
 
-public class CalcularorDemo {
+class CalcularorDemo {
     public static void main(String[] args) {
 
        Calculator calculator = new Calculator();

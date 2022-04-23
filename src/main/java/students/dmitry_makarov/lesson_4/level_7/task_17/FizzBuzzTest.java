@@ -61,7 +61,7 @@ public void devThree () {
 
    FizzBuzz fizzBuzz = new FizzBuzz(number);
    String realResult =  fizzBuzz.detect();
-   if (realResult == devExpected){
+   if (realResult.equals(devExpected)){
     System.out.println("Not devided test is OK");
    }
    else {
