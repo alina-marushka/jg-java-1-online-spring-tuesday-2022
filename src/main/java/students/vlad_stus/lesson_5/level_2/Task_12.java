@@ -1,6 +1,6 @@
 package students.vlad_stus.lesson_5.level_2;
 
-
+import java.util.Arrays;
 
 class Task_12 {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ class Task_12 {
         int[] numbers = new int[3];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) (Math.random() *10);
+            System.out.println(numbers[i]);
 
             /* (int) - приведение к целому
             Math.random - варирует от 1 до 1
@@ -16,9 +17,6 @@ class Task_12 {
              то на выходе получим рандомные числа от 0 до 10 */
         }
 
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
-        }
    /*     System.out.println(Math.random());*/
 
 
