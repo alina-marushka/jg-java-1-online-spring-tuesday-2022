@@ -1,6 +1,6 @@
 package students.romans_bogomols.lesson_5.level_2.task_10;
 
-public class Numbers {
+class Numbers {
 
     public static void main(String[] args) {
 
