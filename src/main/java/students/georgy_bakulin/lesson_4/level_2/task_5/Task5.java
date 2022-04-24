@@ -14,7 +14,7 @@ class Task5 {
         int secondValue = scanner.nextInt();
 
 
-        if(firstValue < secondValue){
+        if(firstValue > secondValue){
             System.out.println("Lowest value " + secondValue);
         } else {
             System.out.println("Lowest value " + firstValue);
