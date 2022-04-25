@@ -19,8 +19,8 @@ package students.vlad_stus.lesson_5.level_5.Task_31;
    int[] demoArrays = arrays.create(expectedResult);
    int actualResult =demoArrays.length;
    checkResult(expectedResult,actualResult, "Array test is " );
-
    }
+
 
    void checkResult(int expectedResult, int actualResult, String testName){
    if( expectedResult == actualResult){
