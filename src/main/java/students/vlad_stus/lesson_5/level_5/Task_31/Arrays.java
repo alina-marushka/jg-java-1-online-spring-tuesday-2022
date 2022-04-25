@@ -7,6 +7,7 @@ import java.util.Scanner;
   Scanner scanner;
 
   Arrays(){
+
    this. scanner = new Scanner(System.in);
   }
 
