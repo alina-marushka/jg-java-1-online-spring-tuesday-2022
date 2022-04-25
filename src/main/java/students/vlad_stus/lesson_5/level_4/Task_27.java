@@ -10,6 +10,8 @@ import java.util.Random;
          Random random = new Random();
          int[] numbers = new int[5];
 
+
+
          for (int i = 0; i <numbers.length ; i++) {
              numbers[i] =random.nextInt(10);
              System.out.println("[" + i + "] = " +  numbers[i]);
