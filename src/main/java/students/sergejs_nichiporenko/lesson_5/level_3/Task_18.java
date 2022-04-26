@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_5.level_3;
 
-public class Task_18 {
+class Task_18 {
     class ForLoopDefinition3 {
 
         public static void main(String[] args) {

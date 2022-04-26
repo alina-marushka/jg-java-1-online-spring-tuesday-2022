@@ -2,7 +2,7 @@ package students.sergejs_nichiporenko.lesson_5.level_4;
 
 import java.util.Random;
 
-public class Task_27 {
+class Task_27 {
     public static void main(String[] args) {
         Random random = new Random();
 

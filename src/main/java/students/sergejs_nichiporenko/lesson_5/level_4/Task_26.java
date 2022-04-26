@@ -3,7 +3,7 @@ package students.sergejs_nichiporenko.lesson_5.level_4;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task_26 {
+class Task_26 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();

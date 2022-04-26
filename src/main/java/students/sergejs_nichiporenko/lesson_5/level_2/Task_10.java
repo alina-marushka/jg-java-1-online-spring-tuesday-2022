@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_5.level_2;
 
-public class Task_10 {
+class Task_10 {
     public static void main(String[] args) {
 
         int[] numbers = new int[3];

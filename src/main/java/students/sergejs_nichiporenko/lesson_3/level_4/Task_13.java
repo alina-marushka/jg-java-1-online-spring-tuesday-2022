@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_3.level_4;
 
-public class Task_13 {
+class Task_13 {
     class Book {
 
         String title;

@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_5.level_1;
 
-public class Task_8 {
+class Task_8 {
     class ArrayLength2 {
 
         public static void main(String[] args) {

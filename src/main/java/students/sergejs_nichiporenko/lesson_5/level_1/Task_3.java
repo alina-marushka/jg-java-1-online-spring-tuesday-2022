@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_5.level_1;
 
-public class Task_3 {
+class Task_3 {
 
     class ArrayDefinition3 {
 

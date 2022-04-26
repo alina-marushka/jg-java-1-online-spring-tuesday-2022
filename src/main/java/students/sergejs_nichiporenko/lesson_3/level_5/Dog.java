@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_3.level_5;
 
-public class Dog {
+class Dog {
     String name;
 
     public Dog(String name) {

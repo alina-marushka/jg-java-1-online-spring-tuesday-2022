@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_4.level_4;
 
-public class CalculatorTest {
+class CalculatorTest {
 
     Calculator calculator = new Calculator();
 
