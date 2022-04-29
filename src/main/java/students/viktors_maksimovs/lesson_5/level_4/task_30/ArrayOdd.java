@@ -3,7 +3,7 @@ package students.viktors_maksimovs.lesson_5.level_4.task_30;
 import java.util.Arrays;
 import java.util.Random;
 
-public class ArrayOdd {
+class ArrayOdd {
 
 
     public static void main(String[] args) {

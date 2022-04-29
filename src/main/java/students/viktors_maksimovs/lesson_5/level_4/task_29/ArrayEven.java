@@ -3,7 +3,7 @@ package students.viktors_maksimovs.lesson_5.level_4.task_29;
 import java.util.Arrays;
 import java.util.Random;
 
-public class ArrayEven {
+class ArrayEven {
 
     public static void main(String[] args) {
         Random random = new Random();
