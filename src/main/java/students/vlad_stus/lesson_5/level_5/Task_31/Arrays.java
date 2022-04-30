@@ -11,6 +11,7 @@ import java.util.Random;
 
      Arrays() {
          this.scanner = new Scanner(System.in);
+         this.random =new Random();
      }
 
      /*  метод для создания
@@ -46,6 +47,15 @@ import java.util.Random;
                  maxNumber = number;
              }
          }
+         return maxNumber;
+     }
+     int findMin(int[] array) {
+         int minNumber = array[0];
+         for (int number : array) {
+             if (minNumber> number);
+             minNumber = number;
+         }
+         return minNumber;
      }
  }
 

@@ -8,6 +8,7 @@ package students.vlad_stus.lesson_5.level_5.Task_31;
    ArraysTest arraysTest = new ArraysTest();
    arraysTest.shouldCreateArray();
    arraysTest.shouldFindMaxNumber();
+   arraysTest.shouldFindMinNumber();
 
   }
 
@@ -30,11 +31,18 @@ package students.vlad_stus.lesson_5.level_5.Task_31;
      System.out.println(testName + "FAILED");
     }
    }
-   void shouldFindMaxNumber(int) {
+   void shouldFindMaxNumber() {
      int[] testArray = {33, 20, 106, 99, 564};
      int expectedResult = testArray[4];
      int actualResult =  arrays.findMax(testArray);
      checkResult(expectedResult, actualResult, "Max Number test");
+
+    }
+    void shouldFindMinNumber(){
+     int[] testArray = {33, 20, 106, 99, 564};
+     int expectedResult = testArray[1];
+     int actualResult =  arrays.findMin(testArray);
+     checkResult(expectedResult, actualResult, "Min Number test");
 
     }
    }
