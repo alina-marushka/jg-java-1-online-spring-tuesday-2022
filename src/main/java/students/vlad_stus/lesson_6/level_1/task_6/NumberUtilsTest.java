@@ -10,5 +10,8 @@ package students.vlad_stus.lesson_6.level_1.task_6;
          NumberUtils testUtil = new NumberUtils();
          int expectResult = 10;
          int acutalResult = testUtil.isEven(expectResult);
+         if(expectResult == acutalResult){
+             System.out.println("Test Done!");
+         }
      }
  }
