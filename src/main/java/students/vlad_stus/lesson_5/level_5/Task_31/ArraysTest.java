@@ -7,6 +7,7 @@ package students.vlad_stus.lesson_5.level_5.Task_31;
 
    ArraysTest arraysTest = new ArraysTest();
    arraysTest.shouldCreateArray();
+   arraysTest.shouldFindMaxNumber();
 
   }
 
@@ -28,6 +29,14 @@ package students.vlad_stus.lesson_5.level_5.Task_31;
    else{
     System.out.println(testName + "FAILED");
    }
+   void shouldFindMaxNumber(int) {
+     Arrays arrays = new Arrays();
+     int[] testArray = {33, 20, 106, 99, 564};
+     int expectedResult = testArray[4];
+     int actualResult = util.maxNumbers(testArray);
+     checkResult(expectedResult, actualResult, "Max Number test");
+
+    }
    }
 }
 
