@@ -9,6 +9,7 @@ class Demo3 {
         String text = "Hello World";
         char[] chars = text.toCharArray();
 
+
         System.out.println("text = " + text);
         System.out.println("chars = " + Arrays.toString(chars));
 
