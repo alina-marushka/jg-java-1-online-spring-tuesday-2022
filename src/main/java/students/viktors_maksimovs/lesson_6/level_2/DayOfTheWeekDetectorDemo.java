@@ -8,9 +8,9 @@ class DayOfTheWeekDetectorDemo {
         String dayOfTheWeek = detector.findDayOfTheWeek(dayNumber);
         System.out.println(dayOfTheWeek);
 
-        }
-
-
     }
+
+
+}
 
 

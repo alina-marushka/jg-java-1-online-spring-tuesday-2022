@@ -1,6 +1,6 @@
 package students.viktors_maksimovs.lesson_6.level_2;
 
-public class DayOfTheWeekDetectorTest {
+class DayOfTheWeekDetectorTest {
     public static void main(String[] args) {
         DayOfTheWeekDetectorTest test = new DayOfTheWeekDetectorTest();
         test.monday();

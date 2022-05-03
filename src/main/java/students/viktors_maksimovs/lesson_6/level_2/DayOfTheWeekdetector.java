@@ -11,12 +11,13 @@ class DayOfTheWeekDetector {
     }
 
     public String findDayOfTheWeek(int dayNumber) {
-        String[] weekDay = {"Not correct day number", "Monday", "Tuesday", "Wednesday",
+        String[] weekDay = {"Monday", "Tuesday", "Wednesday",
                 "Thursday", "Friday", "Saturday", "Sunday"};
 
-        if (dayNumber>1 && dayNumber < 8) {
-            return weekDay[dayNumber];
-        } return "Not correct day number";
+        if (dayNumber >= 1 && dayNumber <= 7) {
+            return weekDay[dayNumber - 1];
+        }
+        return "Not correct day number";
     }
 
 
