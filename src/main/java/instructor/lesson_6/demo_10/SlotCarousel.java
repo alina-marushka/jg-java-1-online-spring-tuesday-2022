@@ -4,10 +4,10 @@ import java.util.Random;
 
 class SlotCarousel {
 
-    static String[] images = {"🍓", "🍋", "🍉", "🥝", "🍑", "🫐", "🍇", "🍒", "🧉"};
+    private static String[] images = {"🍓", "🍋", "🍉", "🥝", "🍑", "🫐", "🍇", "🍒", "🧉"};
 
-    String[] bars;
-    Random random;
+    private String[] bars;
+    private Random random;
 
     SlotCarousel(Random random, int length) {
         this.random = random;
@@ -37,7 +37,7 @@ class SlotCarousel {
         return true;
     }
 
-    String randomImage() {
+    private String randomImage() {
         return images[random.nextInt(images.length)];
     }
 }

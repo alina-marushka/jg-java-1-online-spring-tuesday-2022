@@ -2,9 +2,9 @@ package instructor.lesson_6.demo_10;
 
 class SlotMachine {
 
-    int balance;
-    SlotPrompter prompter;
-    SlotCarousel carousel;
+    private int balance;
+    private SlotPrompter prompter;
+    private SlotCarousel carousel;
 
     SlotMachine(int balance, SlotPrompter prompter, SlotCarousel carousel) {
         this.balance = balance;
@@ -48,7 +48,7 @@ class SlotMachine {
         }
     }
 
-    void deposit() {
+    private void deposit() {
         this.balance += prompter.promptDepositAmount();
     }
 }

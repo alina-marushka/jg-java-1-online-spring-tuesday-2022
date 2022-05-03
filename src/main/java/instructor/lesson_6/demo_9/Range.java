@@ -1,24 +1,36 @@
 package instructor.lesson_6.demo_9;
 
-class Range {
+public class Range {
 
-    int leftBound;
-    int rightBound;
+    private int leftBound;
+    private int rightBound;
 
-    Range(int leftBound, int rightBound) {
+    private Range(int leftBound, int rightBound) {
         this.leftBound = leftBound;
         this.rightBound = rightBound;
     }
 
-    static Range ofLeft(int leftBound) {
+    public static Range of(int leftBound, int rightBound) {
+        return new Range(leftBound, rightBound);
+    }
+
+    public static Range ofLeft(int leftBound) {
         return new Range(leftBound, Integer.MAX_VALUE);
     }
 
-    static Range ofRight(int rightBound) {
+    public static Range ofRight(int rightBound) {
         return new Range(Integer.MIN_VALUE, rightBound);
     }
 
-    String asString() {
+    public int left() {
+        return leftBound;
+    }
+
+    public int right() {
+        return rightBound;
+    }
+
+    public String asString() {
         return "Range(leftBound = '" + leftBound + "', rightBound = '" + rightBound + "')";
     }
 
