@@ -6,7 +6,7 @@ class WhileLoopContinue {
 
         while (true) {
             if (i == 10) {
-                break;
+                continue;
             }
             System.out.println("Hello");
             i++;

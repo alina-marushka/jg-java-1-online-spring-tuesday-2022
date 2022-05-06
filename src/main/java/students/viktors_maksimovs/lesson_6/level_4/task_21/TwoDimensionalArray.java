@@ -2,7 +2,7 @@ package students.viktors_maksimovs.lesson_6.level_4.task_21;
 
 import java.util.Random;
 
-public class TwoDimensionalArray {
+class TwoDimensionalArray {
     int[][] arrayMaker(int column, int row) {
         Random random = new Random();
 
