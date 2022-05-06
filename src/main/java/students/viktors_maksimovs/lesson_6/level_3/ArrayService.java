@@ -52,16 +52,18 @@ class ArrayService {
     }
 
     void reverse(int[] arr) {
-        for (int i = arr.length-1; i>= 0; i--)
-        System.out.print(arr[i]+ " ");
-        System.out.println();
+        for (int i = 0; i < arr.length / 2; i++) {
+            int j = arr.length - 1 - i;
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
     }
 
     void sort(int[] arr) {
-            Arrays.sort(arr);
-            System.out.print(Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.print(Arrays.toString(arr));
         }
-
 
 
 }

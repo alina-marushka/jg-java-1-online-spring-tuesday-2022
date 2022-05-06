@@ -7,7 +7,8 @@ class ArrayServiceDemo {
         ArrayService arrayService = new ArrayService();
         int[] array = new int[] {1,2,3,4,5,5,6,7,-1,-2,50,5};
         System.out.println(Arrays.toString(array));
-        arrayService.sort(array);
+        arrayService.reverse(array);
+        System.out.println(Arrays.toString(array));
 
 
     }
