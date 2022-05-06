@@ -16,14 +16,14 @@ class ArrayService {
 
     int countOccurrences(int[] arr, int numberToSearch) {
 
-        int x= 0;
+        int x = 0;
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == numberToSearch) {
                 x++;
             }
         }
-        return  x;
+        return x;
 
     }
 
@@ -39,7 +39,7 @@ class ArrayService {
     }
 
     int replaceAll(int[] arr, int numberToReplace, int newNumber) {
-        int x= 0;
+        int x = 0;
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == numberToReplace) {
@@ -47,7 +47,7 @@ class ArrayService {
                 x++;
             }
         }
-        return  x;
+        return x;
 
     }
 
@@ -63,7 +63,7 @@ class ArrayService {
     void sort(int[] arr) {
         Arrays.sort(arr);
         System.out.print(Arrays.toString(arr));
-        }
+    }
 
 
 }
