@@ -1,6 +1,6 @@
 package students.romans_bogomols.lesson_6.level_2.task_7;
 
-public class DayOfTheWeekDetectorDemo {
+class DayOfTheWeekDetectorDemo {
 
     public static void main(String[] args) {
         DayOfTheWeekDetector detector = new DayOfTheWeekDetector();
