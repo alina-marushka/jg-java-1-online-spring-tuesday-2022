@@ -1,6 +1,6 @@
 package students.viktors_maksimovs.lesson_6.level_5;
 
-public class TicTacToeDemo {
+class TicTacToeDemo {
     public static void main(String[] args) {
         TicTacToe game = new TicTacToe();
         int[][] board = new int[3][3];
@@ -9,6 +9,6 @@ public class TicTacToeDemo {
                 board[i][j] = -1;
             }
         }
-        System.out.println(game.isWinPositionForHorizontals(board,1));
+        System.out.println(game.isWinPositionForHorizontals(board, 1));
     }
 }

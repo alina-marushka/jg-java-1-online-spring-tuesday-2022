@@ -134,7 +134,7 @@ class TicTacToeTest {
         int[][] board = createTestDraw();
 
         boolean actual = game.isDrawPosition(board);
-        assertThatEqual(true, actual, "Draw - ");
+        assertThatEqual(false, actual, "Draw - ");
     }
 
     void assertThatEqual(boolean expected, boolean actual, String scenario) {
@@ -150,7 +150,7 @@ class TicTacToeTest {
     }
 
     int[][] createTestDraw() {
-        return new int[][]{{1, 0, 1}, {0, 1, 1}, {1, 0, 0}};
+        return new int[][]{{1, 0, 1}, {0, 0, 1}, {1, 0, 0}};
     }
 
 
