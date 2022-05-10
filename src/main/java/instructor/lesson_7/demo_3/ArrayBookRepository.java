@@ -1,6 +1,6 @@
 package instructor.lesson_7.demo_3;
 
-class ArrayBookRepository {
+class ArrayBookRepository extends BookRepository {
 
     private BookRecord[] books;
     private int sequence = 0;
@@ -13,10 +13,12 @@ class ArrayBookRepository {
         this.books = new BookRecord[capacity];
     }
 
+    @Override
     void save(BookRecord record) {
         books[sequence++] = record;
     }
 
+    @Override
     BookRecord[] index() {
         BookRecord[] buffer = new BookRecord[size()];
         int cursor = 0;
@@ -30,6 +32,7 @@ class ArrayBookRepository {
         return buffer;
     }
 
+    @Override
     BookRecord findByISBN(String isbn) {
         for (BookRecord record : books) {
             if (record == null) {
@@ -44,6 +47,7 @@ class ArrayBookRepository {
         return null;
     }
 
+    @Override
     void delete(BookRecord record) {
         for (int i = 0; i < books.length; i++) {
             BookRecord book = books[i];

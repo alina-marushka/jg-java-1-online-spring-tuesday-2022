@@ -9,7 +9,7 @@ class BookApplication {
         BookRecord book2 = new BookRecord("1617291994", "Mycroft Alan", "Java 8 in Action");
         BookRecord book3 = new BookRecord("0132350882", "Martin Robert", "Clean Code");
 
-        ArrayBookRepository repository = new ArrayBookRepository();
+        BookRepository repository = new ArrayBookRepository();
 
         System.out.println("Index Books: ");
         for (BookRecord record : repository.index()) {
