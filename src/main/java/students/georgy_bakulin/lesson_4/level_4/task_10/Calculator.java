@@ -31,7 +31,6 @@ class Calculator {
     int maxOfTwoNumbers(int firstNumber, int secondNumber) {
         if (firstNumber >= secondNumber) {
             return firstNumber;
-            // реализуйте этот метод
         } else {
             return secondNumber;
         }

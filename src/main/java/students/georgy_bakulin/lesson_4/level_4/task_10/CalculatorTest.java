@@ -67,7 +67,7 @@ class CalculatorTest {
     void divTest() {
         int firstNumber = 16;
         int secondNumber = 5;
-        double expectedResult = 3.1;
+        double expectedResult = 3.2;
         Calculator calculator = new Calculator();
         double realResult = calculator.div(firstNumber, secondNumber);
         if (realResult == expectedResult) {
@@ -79,7 +79,7 @@ class CalculatorTest {
 
     void isEvenTest() {
         int firstNumber = 9;
-        boolean expectedResult = true;
+        boolean expectedResult = false;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(firstNumber);
         if (realResult == expectedResult) {
@@ -91,7 +91,7 @@ class CalculatorTest {
 
     void isEvenTest2() {
         int firstNumber = 12;
-        boolean expectedResult = false;
+        boolean expectedResult = true;
         Calculator calculator = new Calculator();
         boolean realResult = calculator.isEven(firstNumber);
         if (realResult == expectedResult) {
@@ -186,7 +186,7 @@ class CalculatorTest {
         int firstNumber = 10;
         int secondNumber = 10;
         int thirdNumber = 7;
-        int expectedResult = 15;
+        int expectedResult = 10;
         Calculator calculator = new Calculator();
         int realResult = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         if (realResult == expectedResult) {
