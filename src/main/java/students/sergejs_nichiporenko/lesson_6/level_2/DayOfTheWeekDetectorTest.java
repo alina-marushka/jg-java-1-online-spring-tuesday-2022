@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_6.level_2;
 
-public class DayOfTheWeekDetectorTest {
+class DayOfTheWeekDetectorTest {
     DayOfTheWeekDetector dayOfTheWeekDetector = new DayOfTheWeekDetector();
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_7.level_1;
 
-public class WordService {
+class WordService {
     public String findMostFrequentWord(String text) {
         int count;
         int maxCount = 0;

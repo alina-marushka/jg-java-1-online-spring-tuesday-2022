@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_7.level_1;
 
-public class WordServiceTest {
+class WordServiceTest {
     WordService wordService = new WordService();
     String testText = "And I8 0 forget just + why I taste Oh yeah, I guess4 it makes oh me smile";
 

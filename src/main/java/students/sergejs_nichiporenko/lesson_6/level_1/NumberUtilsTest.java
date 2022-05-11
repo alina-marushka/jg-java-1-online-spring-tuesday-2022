@@ -1,6 +1,6 @@
 package students.sergejs_nichiporenko.lesson_6.level_1;
 
-public class NumberUtilsTest {
+class NumberUtilsTest {
     NumberUtils number = new NumberUtils();
 
     public static void main(String[] args) {
